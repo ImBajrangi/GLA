@@ -1,5 +1,4 @@
 // observation - for every max element their won't be any element greater than that.
-// max - 5
 
 import java.util.Scanner;
 
