@@ -20,6 +20,8 @@ public class matrix {
 
         int diagonalSm = diagonalSum(matrix);
         System.out.println(diagonalSm);
+
+        sc.close();
     }
 
     static int[][] makeMatrix(int row,int column){
@@ -31,6 +33,7 @@ public class matrix {
                 matrix[i][j] = sc.nextInt();
             }
         }
+        sc.close();
         return matrix;
     }
 
