@@ -9,7 +9,7 @@ public class FindPairs {
         System.out.println("Enter the size of the array: ");
         int n = sc.nextInt();
         int[] arr = new int[n];
-        
+
         for(int i=0;i<n;i++){
             System.out.println("Enter Your Element: ");
             arr[i] = sc.nextInt();
