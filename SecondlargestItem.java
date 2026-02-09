@@ -31,7 +31,7 @@ public class SecondlargestItem {
         for(int i=0;i<arr.length;i++){
             diff[i] = max-arr[i];
 
-            if(diff[i] <= small && diff != 0){
+            if(diff[i] <= small && diff[i] != 0){
                 small = diff[i];
             }
         }        
